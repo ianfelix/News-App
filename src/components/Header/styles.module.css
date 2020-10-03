@@ -1,0 +1,15 @@
+header {
+  position: relative;
+  background-color: #151618;
+  height: 48px;
+  max-width: 100%;
+  border-bottom: 1px solid #303133;
+  z-index: 1;
+}
+
+.logoName {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  line-height: 48px;
+}

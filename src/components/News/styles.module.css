@@ -1,0 +1,41 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 0 40px 78px;
+}
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.card {
+  background-color: #25282c;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #e9eaec14;
+}
+
+.author,
+.title {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .containerGrid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerGrid {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+}
