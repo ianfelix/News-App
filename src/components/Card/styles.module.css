@@ -1,0 +1,10 @@
+.card {
+  background-color: #25282c;
+  border-radius: 16px;
+  border: 1px solid #e9eaec14;
+  padding: 2rem;
+}
+
+.card:hover {
+  border-color: #ffffff29;
+}
