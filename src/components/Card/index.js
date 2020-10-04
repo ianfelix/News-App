@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import HeaderCard from './HeaderCard';
 import ImgCard from './ImgCard';
 import FooterCard from './FooterCard';
