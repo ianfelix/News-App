@@ -7,7 +7,7 @@ import styles from './styles.module.css';
 const Card = ({ url, name, title, img }) => {
   return (
     <div className={styles.card}>
-      <a href={url}>
+      <a href={url} target='_blanck'>
         <HeaderCard name={name} title={title} />
         <ImgCard img={img} title={title} />
         <FooterCard />

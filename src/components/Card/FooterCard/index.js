@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FooterCard = () => {
   return (
     <>
-      <h1>FooterCard</h1>
+      <button className={styles.btn}>Saiba mais</button>
     </>
   );
 };

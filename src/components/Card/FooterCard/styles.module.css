@@ -1,1 +1,15 @@
-/* The component style is inserted here. */
+.btn {
+  background-color: #25282c;
+  color: #a9abb3;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #e9eaec14;
+}

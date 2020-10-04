@@ -1,5 +1,13 @@
+.author {
+  text-decoration: underline;
+}
+
+.title {
+  width: 250px;
+  display: inline-block;
+}
 .author,
 .title {
-  color: #fff;
   font-size: 1rem;
+  margin-bottom: 20px;
 }

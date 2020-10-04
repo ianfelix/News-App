@@ -2,7 +2,9 @@
   background-color: #25282c;
   border-radius: 16px;
   border: 1px solid #e9eaec14;
-  padding: 2rem;
+  padding: 2rem 0.5rem;
+  min-height: 300px;
+  text-align: center;
 }
 
 .card:hover {

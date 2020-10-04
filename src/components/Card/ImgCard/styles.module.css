@@ -1,0 +1,9 @@
+.imgContent {
+  padding: 20px 0;
+}
+
+.imgCard {
+  width: 350px;
+  height: 150px;
+  object-fit: cover;
+}
