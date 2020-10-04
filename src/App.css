@@ -28,3 +28,16 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
+.animeUp {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: animeUp 0.5s forwards;
+}
+
+@keyframes animeUp {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}

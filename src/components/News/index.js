@@ -31,7 +31,7 @@ const News = () => {
     fetchNews();
   }, []);
 
-  if (loading) return <div style={{ color: 'white' }}>Carregando...</div>;
+  if (loading) return <div className={styles.animeLoading}></div>;
   if (error) return <p style={{ color: 'white' }}>{error}</p>;
   if (news === null) return null;
   return (

@@ -10,3 +10,14 @@
 .card:hover {
   border-color: #ffffff29;
 }
+
+.animeZoom {
+  transform: none;
+  animation: animeZoom 0.3s;
+}
+
+@keyframes animeZoom {
+  to {
+    transform: scale(1.5);
+  }
+}
